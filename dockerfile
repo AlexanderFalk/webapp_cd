@@ -1,4 +1,4 @@
-FROM alexanderfalk/tomcat-group14
+FROM tomcat
 MAINTAINER Alexander Falk
 
 COPY ./target/*.war /opt/apache/tomcat/webapps/autodeploy/Webapp.war
